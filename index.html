@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ricardo Saldanha – Currículo Profissional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Lato', sans-serif;
+      background: #ffffff;
+      color: #2d3748;
+      line-height: 1.6;
+      padding: 2cm;
+      max-width: 21cm;
+      margin: 0 auto;
+      font-size: 11pt;
+      letter-spacing: 0.2px;
+    }
+    @media print {
+      body {
+        padding: 1.5cm;
+      }
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 18pt;
+      color: #1a365d;
+      margin-bottom: 4px;
+      letter-spacing: 0.5px;
+    }
+    .contact {
+      font-size: 10pt;
+      color: #4a5568;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .qr-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 8px;
+    }
+    .qr-code {
+      width: 70px;
+      height: 70px;
+      background: white;
+      padding: 4px;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .qr-caption {
+      font-size: 9pt;
+      color: #718096;
+      font-style: italic;
+      max-width: 200px;
+    }
+    .section {
+      margin: 20px 0;
+    }
+    .section-title {
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 9pt;
+      color: #2b6cb0;
+      letter-spacing: 0.8px;
+      margin: 16px 0 8px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .job, .degree {
+      margin-bottom: 12px;
+      padding: 10px;
+      background: #fafafa;
+      border-radius: 6px;
+      border-left: 3px solid #3182ce;
+      transition: all 0.2s ease;
+    }
+    .job:hover, .degree:hover {
+      background: #f7fafc;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .job-title, .degree-title {
+      font-weight: 600;
+      font-size: 11pt;
+      color: #1a365d;
+    }
+    .job-company, .degree-institution {
+      font-weight: 500;
+      color: #4a5568;
+      font-size: 10pt;
+    }
+    .job-date, .degree-date {
+      float: right;
+      font-style: italic;
+      color: #718096;
+      font-size: 10pt;
+    }
+    .job::after, .degree::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    ul {
+      padding-left: 16px;
+      margin-top: 4px;
+    }
+    li {
+      margin-bottom: 4px;
+      font-size: 10.5pt;
+    }
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .skill-category {
+      flex: 1;
+      min-width: 200px;
+      background: #f7fafc;
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #e2e8f0;
+    }
+    .skill-category h4 {
+      font-weight: 600;
+      font-size: 10pt;
+      margin-bottom: 6px;
+      color: #2d3748;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .skill-category h4::before {
+      content: "•";
+      color: #3182ce;
+      font-weight: bold;
+    }
+    .page-break {
+      page-break-before: always;
+    }
+    @media screen {
+      body {
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+      }
+    }
+    /* Estilo do link */
+    a {
+      color: #2b6cb0;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Rodapé */
+
+  @media print {
+    body::after {
+      content: "Ricardo Saldanha – Currículo Profissional | " attr(data-date);
+      display: block;
+      text-align: center;
+      font-size: 8pt;
+      color: #a0aec0; /* cinza claro */
+      margin-top: 24px;
+      padding-top: 8px;
+      border-top: 1px solid #edf2f7;
+    }
+  }
+</style>
+
+<!-- E no body, adiciona um atributo com a data (opcional) -->
+<body data-date="Janeiro 2026">
+  </style>
+</head>
+<body>
+
+  <h1>Ricardo Manuel Berto Saldanha</h1>
+  <div class="contact">
+    <span>saldanha05@gmail.com | +351 XXX XXX XXX | Valença do Minho, Portugal</span>
+  </div>
+  <div class="qr-container">
+    <img src="qr-code/qr-code-curriculum.png" alt="QR Code" class="qr-code">
+    <span class="qr-caption">Acesso ao meu currículo online com mais informações.</span>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Perfil Profissional</div>
+    <p>
+      Educador e profissional de cuidados humanos com formação em Arquitetura e Reabilitação Psicomotora. 
+      Experiência consolidada no ensino público (Geometria Descritiva, Educação Visual), com foco em práticas inclusivas, 
+      preparação para exames nacionais e estratégias de autoavaliação. Complementa a sua atuação com intervenção psicossocial, 
+      sensibilidade intercultural (projetos internacionais) e investigação interdisciplinar em arquitetura, engenharia e bem-estar humano. 
+      Comprometido com abordagens éticas, centradas na dignidade e na autonomia da pessoa.
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Experiência Profissional</div>
+    
+    <div class="job">
+      <div class="job-title">Professor de Geometria Descritiva e Educação Visual</div>
+      <div class="job-company">Escola Secundária de Ponte de Lima</div>
+      <div class="job-date">2020 – Presente</div>
+      <ul>
+        <li>Lecionação de Geometria Descritiva A (11.º ano) e Educação Visual, com taxas consistentes de sucesso nos exames nacionais.</li>
+        <li>Desenvolvimento de ferramentas de autoavaliação e rubricas formativas adaptadas a diferentes níveis de aprendizagem.</li>
+        <li>Integração de recursos digitais e inteligência artificial para apoio pedagógico personalizado.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Apoio Psicossocial e Cuidados Integrados</div>
+      <div class="job-company">Contexto familiar e comunitário</div>
+      <div class="job-date">2010 – Presente</div>
+      <ul>
+        <li>Acompanhamento personalizado a pessoas em situações de vulnerabilidade, promovendo autonomia, bem-estar emocional e ligação comunitária.</li>
+        <li>Coordenação com redes de saúde e serviços sociais.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Formação Académica</div>
+    
+    <div class="degree">
+      <div class="degree-title">Mestrado em Educação Artística (em curso)</div>
+      <div class="degree-institution">Instituto Politécnico de Viana do Castelo</div>
+      <div class="degree-date">2025 – Atual</div>
+    </div>
+
+    <div class="degree">
+      <div class="degree-title">Licenciatura em Arquitetura</div>
+      <div class="degree-institution">Universidade Lusíada do Porto</div>
+      <div class="degree-date">2003 – 2008</div>
+    </div>
+
+    <div class="degree">
+      <div class="degree-title">Certificação: Care Skills & Care of the Older Person – QQI Level 5</div>
+      <div class="degree-institution">Chevron College, Irlanda</div>
+      <div class="degree-date">2023</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Competências-Chave</div>
+    <div class="skills-container">
+      <div class="skill-category">
+        <h4>Ensino</h4>
+        <p>Geometria Descritiva • Educação Visual • Avaliação Formativa • Inclusão • Preparação para Exames Nacionais</p>
+      </div>
+      <div class="skill-category">
+        <h4>Cuidados Humanos</h4>
+        <p>Apoio Psicossocial • Gerontologia • Comunicação Não Violenta • Acolhimento com Dignidade</p>
+      </div>
+      <div class="skill-category">
+        <h4>Tecnologias</h4>
+        <p>Inteligência Artificial Aplicada • Visualização de Dados • Ferramentas Digitais Educativas</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Publicações</div>
+    <p>
+      <strong>Tese de Mestrado:</strong> Dormitório Urbano: Uma Problemática Social (In)sustentável — A Rua Como Espaço de Morar na Metrópole do Rio de Janeiro<br>
+      <em>Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio) | 2021</em>
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Voluntariado Internacional</div>
+    <p>
+      Participação em projetos de cooperação e educação em contextos multiculturais, com desenvolvimento de sensibilidade intercultural e capacidade de adaptação a ambientes diversos.
+    </p>
+  </div>
+
+</body>
+</html>
